@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Charles Njoroge's Portfolio. Web Developer. Programmer.">
+
+    <title>My Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Inside <head> -->
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js"></script>
+
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyB5wt91dqLdZR5Xc5CbmAuc4Lc9x3LE9gU",
+    authDomain: "my-portfolio-92f84.firebaseapp.com",
+    databaseURL: "https://your_project.firebaseio.com",
+    projectId: "my-portfolio-92f84",
+    storageBucket: "my-portfolio-92f84.firebasestorage.app",
+    messagingSenderId: "210356626510",
+    appId: "1:210356626510:web:43cc6a41ad4d35185dcf1f"
+  };
+
+  // Initialize Firebase
+  const app = firebase.initializeApp(firebaseConfig);
+  const db = firebase.database();
+</script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+    </header>
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hello! I'm Charles Njoroge, a passionate and dedicated web developer with a strong foundation in both front-end and back-end technologies. With a background in Business and Information Technology, I bring a unique combination of technical skills and business acumen to every project I work on. My journey into web development began with a deep interest in solving real-world problems using technology, and over the years, I've honed my skills through hands-on experience and continuous learning.</p>
+        <p>I specialize in building dynamic and responsive websites using modern technologies like HTML, CSS, JavaScript, PHP, and MySQL. My expertise also includes database management, API integration, and creating user-friendly interfaces. I have experience working with frameworks and libraries like React, Bootstrap, and Laravel, which help me deliver fast, scalable, and high-quality web solutions</p>
+        <p>In addition to my technical skills, I’m a firm believer in the importance of good communication and collaboration. I work closely with clients to understand their needs and ensure that every project aligns with their vision. Whether it’s designing a responsive portfolio, creating an interactive web application, or optimizing user experiences, I strive to deliver exceptional results that exceed expectations.</p>
+        <p>When I’m not coding, I enjoy learning new technologies, reading, and spending time with my family.</p>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <p>Bachelor's Degree in Business and Information Technology - Jomo Kenyatta University of Agriculture and Technology</p>
+        <p>ITIL Certification (In Progress)</p>
+        <p>Online Courses: Web Development, Python Programming, project management, quality assurance, & Project Development Lifecyle</p>
+      </section>
+      
+      <section id="experience">
+        <h2>Work Experience</h2>
+        <p><strong>Provider Integrations Officer</strong> at OneTech Solutions</p>
+        <ul>
+          <li>Worked on system integration and API development to ensure smooth data communication between systems.</li>
+          <li>Conducted QA testing for integration systems, identifying and resolving issues to improve system efficiency.</li>
+          <li>Collaborated with cross-functional teams to deliver end-to-end solutions for client needs.</li>
+          <li>Developed and maintained documentation for API integrations and system updates.</li>
+          <li>Provided technical support and troubleshooting to internal teams and clients.</li>
+        </ul>
+        
+        <p><strong>Customer and Service Executive</strong> at OneTech Solutions</p>
+        <ul>
+          <li>Provided customer support for system users, resolving technical issues and offering training.</li>
+          <li>Created user manuals and guides for products, improving accessibility for new users.</li>
+          <li>Led troubleshooting sessions, ensuring minimal downtime for customer-facing applications.</li>
+          <li>Worked with the product team to understand customer needs and suggest system improvements.</li>
+          <li>Managed service level agreements (SLAs) and ensured all customer issues were resolved within agreed timelines.</li>
+        </ul>
+      </section>
+
+      <section id="awards">
+        <h2>Achievements & Awards</h2>
+        <ul>
+          <li>Winner of the Web Development Competition (2024)</li>
+          <li>Top 10% of my class in Business and Information Technology</li>
+          <li>Employee of the Month, OneTech Solutions (2024)</li>
+        </ul>
+      </section>
+      
+      
+      
+      <footer>
+        <p>Contant me via: Phone Number: +254717838902: Email: Charleskiunyu321@gmail.com</p>
+        <p>© 2025 Charles Njoroge</p>
+      </footer>
+
+      <!-- JS logic -->
+      <script src="js/projects.js"></script>
+</body>
+</html>
